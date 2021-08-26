@@ -1,0 +1,108 @@
+html {
+    background-color: black;
+}
+
+body {
+    text-align: left;
+    color: rgb(110, 7, 7);
+}
+
+h1 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'bangers';
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'bangers';
+    position: relative;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.color-box {
+    height: 100px;
+    width: 100px;    
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.color-table {
+    display: inline;
+    padding: 45px;
+}
+
+#rowdy-red {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(110, 7, 7);
+}
+
+#organic-orange {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(163, 113, 71);
+}
+
+#baseball-blue {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(6, 100, 241);
+}
+
+.color-table td {
+    text-align: center;
+}
+
+.special-elite {
+    font-family: 'Special elite';
+}
+
+.bangers {
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+}
+
+.el-messiri {
+    font-family: 'el messiri';
+}
+
+.font-table {
+    padding: 10px;
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    background-color: rgb(163, 113, 71);
+    border-radius: 10px;
+}
+
+.font-styling-table {
+    position: relative;
+    left: 50px;
+}
+
+.styles-table {
+    padding: 10px;
+    position: relative;
+    left: 50px;
+    width: 1000px;
+    background-color: rgb(163, 113, 71);
+    border-radius: 10px;
+}
+
+#button {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(6, 100, 241);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    font-family: 'el messiri';
+    display: inline-block;
+}
