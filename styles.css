@@ -1,10 +1,13 @@
 html {
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 body {
-    text-align: left;
-    color: rgb(110, 7, 7);
+    text-align: center;
+    color:black;
+    font-size: 24px;
+    border: 40px solid #A52E2C; 
+    border-radius: 10px;
 }
 
 h1 {
@@ -16,93 +19,93 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 38px;
     font-family: 'bangers';
-    position: relative;
-    left: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
     letter-spacing: 5px;
 }
 
-.color-box {
+#border {
     height: 100px;
     width: 100px;    
-    border: 2px solid black;
+    border: 10px solid #2C7BA5;
     border-radius: 10px;
     display: inline-block;
 }
 
-.color-table {
-    display: inline;
-    padding: 45px;
+#body-border {
+    height: 100px;
+    width: 100px;    
+    border: 40px solid #A52E2C;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px auto;
 }
 
 #rowdy-red {
     height: 100px;
     width: 100px;
-    background-color: rgb(110, 7, 7);
+    background-color: #A52E2C;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 #organic-orange {
     height: 100px;
     width: 100px;
-    background-color: rgb(163, 113, 71);
+    background-color: #A57F2C;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 #baseball-blue {
     height: 100px;
     width: 100px;
-    background-color: rgb(6, 100, 241);
+    background-color: #2C7BA5;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
 }
 
-.color-table td {
-    text-align: center;
-}
-
-.special-elite {
+#special-elite {
     font-family: 'Special elite';
+    width: auto;
+    display: inline-block;
 }
 
-.bangers {
+#bangers {
     font-family: 'Bangers';
     letter-spacing: 2px;
+    width: auto;
+    display: inline-block;
 }
 
-.el-messiri {
+#el-messiri {
     font-family: 'el messiri';
-}
-
-.font-table {
-    padding: 10px;
-    position: relative;
-    left: 50px;
-    width: 1000px;
-    background-color: rgb(163, 113, 71);
-    border-radius: 10px;
-}
-
-.font-styling-table {
-    position: relative;
-    left: 50px;
+    width: auto;
+    display: inline-block;
 }
 
 .styles-table {
-    padding: 10px;
-    position: relative;
-    left: 50px;
-    width: 1000px;
-    background-color: rgb(163, 113, 71);
+    width: auto;
+    border: 10px solid #2C7BA5;
     border-radius: 10px;
+    margin: 10px auto;
+    display: inline-block;
+    padding: 10px;
 }
 
 #button {
     height: 50px;
     width: 200px;
-    background-color: rgb(6, 100, 241);
+    background-color: #A57F2C;
     text-align: center;
     line-height: 50px;
     border-radius: 10px;
     font-family: 'el messiri';
-    display: inline-block;
+    color:black;
+    margin: 10px auto;
 }
