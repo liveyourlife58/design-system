@@ -26,6 +26,13 @@ h2 {
     letter-spacing: 5px;
 }
 
+h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
 #border {
     height: 100px;
     width: 100px;    
