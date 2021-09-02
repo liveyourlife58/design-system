@@ -15,48 +15,48 @@
         <h1>Style Guide</h1>
 
             <h2>Colors</h2>
-    
-                <div class="styles-table">
-                    <h3>Rowdy Red</h3>
-                        <div id="rowdy-red"></div>
-                            <p><strong>hex</strong> #A52E2C</p>
-                            <p><strong>rgb</strong>(165, 46, 44)</td></p>
-                            <p>This color is going to be used for body border</p>
-                </div>
 
-                <div class="styles-table">
-                    <h3>Organic Orange</h3>
-                        <div id="organic-orange"></div>
+                    <div class="parent" id="rowdy-red">
+                        <h3>Rowdy Red</h3>
+                            <p><strong>hex</strong> #A52E2C</p>
+                            <p><strong>rgb</strong>(165, 46, 44)</p>
+                            <p>Used for</p>
+                            <p>body border</p>
+                    </div>
+               
+                    <div class="parent" id="organic-orange">
+                        <h3>Organic Orange</h3>
                             <p><strong>hex</strong> #A57F2C</p>
-                            <p><strong>rgb</strong>(165, 127, 44)</td></p>
-                            <p>This color is going to be used for buttons</p>
-                </div>
-           
-                <div class="styles-table">
-                    <h3>Baseball Blue</h3>
-                        <div id="baseball-blue"></div>
+                            <p><strong>rgb</strong>(165, 127, 44)</p>
+                            <p>Used for</p>
+                            <p>buttons</p>
+                     </div>
+               
+                    <div class="parent" id="baseball-blue">
+                        <h3>Baseball Blue</h3>
                             <p><strong>hex</strong> #2C7BA5</p>
-                            <p><strong>rgb</strong>(44, 123, 165)</td></p>
-                            <p>This color is going to be used for table border</p>
-                </div>
+                            <p><strong>rgb</strong>(44, 123, 165)</p>
+                            <p>Used for</p>
+                            <p>table border</p>
+                    </div>
   
             <h2>Fonts</h2>
 
-                <div class="styles-table" id="special-elite">
+                <div class="parent" id="special-elite">
                     <h3>Special Elite</h3>
                         <p>The quick brown fox jumps over the lazy dog"</p>
                         <p style="font-weight: bold;">This is the font used in bold.</p>
                         <p style="font-style: italic;">This is the italic font.</p>
                 </div>
 
-                <div class="styles-table" id="bangers">
+                <div class="parent" id="bangers">
                     <h3>Bangers</h3>
                         <p>The quick brown fox jumps over the lazy dog"</p>
                         <p style="font-weight: bold;">This is the font used in bold.</p>
                         <p style="font-style: italic;">This is the italic font.</p>
                 </div>
 
-                <div class="styles-table" id="el-messiri">
+                <div class="parent" id="el-messiri">
                     <h3>El Messiri</h3>
                         <p>The quick brown fox jumps over the lazy dog"</p>
                         <p style="font-weight: bold;">This is the font used in bold.</p>
@@ -64,32 +64,38 @@
                     </div>
 
             <h2>Standard Styles</h2>
-                <h3>Headers</h3>
-                    <div class="styles-table">
-                        <h4>h1</h4>
-                        <p><strong>font-family:</strong> 'bangers';</p>
-                        <p><strong>font-size:</strong> 45px;</p>
-                        <p><strong>letter-spacing:</strong> 5px;</p>
-                    </div>
-                    <div class="styles-table">
-                        <h4>h2</h4>
-                        <p><strong>font-family:</strong> 'bangers';</p>
-                        <p><strong>font-size:</strong> 38px;</p>
-                        <p><strong>letter-spacing:</strong> 5px;</p>
-                    </div>
+
+                <div class="parent">
+                    <table>
+                        <th>Headers</th>
+                        <th colspan=3>Styling Details</th>
+                            <tr>
+                                <td>h1</td>
+                                <td><strong>font-family:</strong> 'bangers';</td>
+                                <td><strong>font-size:</strong> 45px;</td>
+                                <td><strong>letter-spacing:</strong> 5px;</td>
+                            </tr>
+                            <tr>
+                                <td>h2</td>
+                                <td><strong>font-family:</strong> 'bangers';</td>
+                                <td><strong>font-size:</strong> 38px;</td>
+                                <td><strong>letter-spacing:</strong> 5px;</td>
+                            </tr>
+                    </table>
+                </div>
         
-            <h3>Additional Styles</h3>
+            <h2>Additional Styles</h2>
                 
-                <div class="styles-table">
-                    <h3>Table Border</h3>
-                        <div id="border"></div>
+                <div class="parent">
+                    <h3>Div Border</h3>
+                        <div id="div-border"></div>
                         <p><strong>10px</strong></p>
                         <p><strong>Solid</strong></p>
                         <p><strong>#2C7BA5</strong></p>
                         <p><strong>Border-Radius: 10px</strong></p>
                 </div>
 
-                <div class="styles-table">
+                <div class="parent">
                     <h3>Body Border</h3> 
                     <div id="body-border"></div>
                     <p><strong>40px</strong></p>
@@ -98,12 +104,12 @@
                     <p><strong>Border-Radius: 10px</strong></p>
                 </div>
     
-                <div class="styles-table">
-            
+                <div class="parent">
                     <h3>Button</h3>
                     <div id="button">Click Here</div>
                     <p><strong>hex #A57F2C</strong></p>
                     <p><strong>rgb(165, 127, 44)</strong></p>
-                    <p><strong>Height: 50px; Width: 200px;</strong></p>
+                    <p><strong>Height: 50px;</strong></p>
+                    <p><strong>Width: 200px;</strong></p>
                 </div>
 
