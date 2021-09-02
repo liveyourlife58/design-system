@@ -14,16 +14,32 @@ h1 {
     padding-bottom: 30px;
     text-align: center;
     font-family: 'bangers';
-    font-size: 45px;
+    font-size: 4em;
     letter-spacing: 5px;
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 2em;
     font-family: 'bangers';
     padding-top: 30px;
     padding-bottom: 30px;
     letter-spacing: 5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'bangers';
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .aClassforSmallScreens {
+    color: aqua;
+    font-size: 60%;
+    }
 }
 
 #border {
@@ -44,8 +60,8 @@ h2 {
 }
 
 #rowdy-red {
-    height: 100px;
-    width: 100px;
+    height: 20em;
+    width: 30%;
     background-color: #A52E2C;
     border: 2px solid black;
     border-radius: 10px;
@@ -53,8 +69,8 @@ h2 {
 }
 
 #organic-orange {
-    height: 100px;
-    width: 100px;
+    height: 20em;
+    width: 30%;
     background-color: #A57F2C;
     border: 2px solid black;
     border-radius: 10px;
@@ -62,8 +78,8 @@ h2 {
 }
 
 #baseball-blue {
-    height: 100px;
-    width: 100px;
+    height: 20em;
+    width: 30%;
     background-color: #2C7BA5;
     border: 2px solid black;
     border-radius: 10px;
@@ -71,31 +87,25 @@ h2 {
 }
 
 #special-elite {
+    height: fit-content;
+    width: fit-content;
     font-family: 'Special elite';
-    width: auto;
     display: inline-block;
 }
 
 #bangers {
+    height: fit-content;
+    width: fit-content;
     font-family: 'Bangers';
     letter-spacing: 2px;
-    width: auto;
     display: inline-block;
 }
 
 #el-messiri {
+    height: fit-content;
+    width: fit-content;
     font-family: 'el messiri';
-    width: auto;
     display: inline-block;
-}
-
-.styles-table {
-    width: auto;
-    border: 10px solid #2C7BA5;
-    border-radius: 10px;
-    margin: 10px auto;
-    display: inline-block;
-    padding: 10px;
 }
 
 #button {
