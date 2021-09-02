@@ -1,10 +1,10 @@
 html {
-    background-color: whitesmoke;
+    background-image: url(https://th.bing.com/th/id/R.9d6f41312d35a2b07578f5a88ad1136f?rik=UFNgpWCHDKXevw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fAmazing-Laptop-Images-Free-Download.jpg&ehk=wSaTANiGS%2fNIG4z2PHMcVu9HiWnl0MOsvWkfdPmwF3E%3d&risl=&pid=ImgRaw&r=0);
 }
 
 body {
     text-align: center;
-    color:black;
+    color: white;
     font-size: 24px;
     border: 40px solid #A52E2C; 
     border-radius: 10px;
@@ -32,11 +32,12 @@ h3 {
 }
 
 .parent {
+    overflow: hidden;
     display:inline-block;
 }
 
 table {
-    padding: 1em;
+    margin-top: 1em;
     line-height: 2em;   
     border: 10px solid #2C7BA5;
     border-radius: 10px;
@@ -126,3 +127,24 @@ table {
     color: aqua;
     }
 }
+
+.container {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+  }
+   
+  .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .image-container {
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
