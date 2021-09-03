@@ -1,10 +1,19 @@
 html {
-    background-image: url(https://th.bing.com/th/id/R.9d6f41312d35a2b07578f5a88ad1136f?rik=UFNgpWCHDKXevw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fAmazing-Laptop-Images-Free-Download.jpg&ehk=wSaTANiGS%2fNIG4z2PHMcVu9HiWnl0MOsvWkfdPmwF3E%3d&risl=&pid=ImgRaw&r=0);
+    background-image: url('https://www.backgroundscool.com/wp-content/uploads/2019/09/Amoled-Tree-iPhone-Wallpaper-469x832.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #A52E2C;
 }
 
 body {
     text-align: center;
-    color: white;
+    color: white;;
     font-size: 24px;
     border: 40px solid #A52E2C; 
     border-radius: 10px;
@@ -130,14 +139,14 @@ table {
 
 .container {
     width: 50%;
-    height: 200px;
     overflow: hidden;
   }
    
   .container img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     display: block;
+
   }
 
   .image-container {
@@ -147,4 +156,11 @@ table {
   .image-container img {
     max-width: 100%;
     height: auto;
+  }
+
+  #div-scaling {
+    background-image: url('https://www.backgroundscool.com/wp-content/uploads/2019/09/Amoled-Tree-iPhone-Wallpaper-469x832.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
