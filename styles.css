@@ -1,10 +1,10 @@
 html {
-    background-color: whitesmoke;
+    background-image: url(https://th.bing.com/th/id/R.9d6f41312d35a2b07578f5a88ad1136f?rik=UFNgpWCHDKXevw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fAmazing-Laptop-Images-Free-Download.jpg&ehk=wSaTANiGS%2fNIG4z2PHMcVu9HiWnl0MOsvWkfdPmwF3E%3d&risl=&pid=ImgRaw&r=0);
 }
 
 body {
     text-align: center;
-    color:black;
+    color: white;
     font-size: 24px;
     border: 40px solid #A52E2C; 
     border-radius: 10px;
@@ -15,39 +15,88 @@ h1 {
     text-align: center;
     font-family: 'bangers';
     font-size: 4em;
-    letter-spacing: 5px;
+    letter-spacing: .25em;
 }
 
 h2 {
     font-size: 2em;
     font-family: 'bangers';
-    padding-top: 30px;
-    padding-bottom: 30px;
-    letter-spacing: 5px;
+    padding-top: 1em;
+    letter-spacing: .25em;
 }
 
 h3 {
     font-size: 1.5em;
     font-family: 'bangers';
-    padding-top: 30px;
-    padding-bottom: 30px;
-    letter-spacing: 5px;
+    letter-spacing: .25em;
 }
 
-
-@media screen and (max-width: 600px) {
-    .aClassforSmallScreens {
-    color: aqua;
-    font-size: 60%;
-    }
+.parent {
+    overflow: hidden;
+    display:inline-block;
 }
 
-#border {
+table {
+    margin-top: 1em;
+    line-height: 2em;   
+    border: 10px solid #2C7BA5;
+    border-radius: 10px;
+}
+
+#rowdy-red {
+    height: 15em;
+    width: 15em;
+    background-color: #A52E2C;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#organic-orange {
+    height: 15em;
+    width: 15em;
+    background-color: #A57F2C;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#baseball-blue {
+    height: 15em;
+    width: 15em;
+    background-color: #2C7BA5;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#special-elite {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Special elite';
+    line-height: 100%;
+}
+
+#bangers {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Bangers';
+    letter-spacing: 2px;
+    line-height: 100%;
+}
+
+#el-messiri {
+    height: fit-content;
+    width: fit-content;
+    font-family: 'el messiri';
+    line-height: 100%;
+}
+
+#div-border {
     height: 100px;
     width: 100px;    
     border: 10px solid #2C7BA5;
     border-radius: 10px;
     display: inline-block;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 #body-border {
@@ -56,56 +105,8 @@ h3 {
     border: 40px solid #A52E2C;
     border-radius: 10px;
     display: inline-block;
-    margin: 10px auto;
-}
-
-#rowdy-red {
-    height: 20em;
-    width: 30%;
-    background-color: #A52E2C;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#organic-orange {
-    height: 20em;
-    width: 30%;
-    background-color: #A57F2C;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#baseball-blue {
-    height: 20em;
-    width: 30%;
-    background-color: #2C7BA5;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-#special-elite {
-    height: fit-content;
-    width: fit-content;
-    font-family: 'Special elite';
-    display: inline-block;
-}
-
-#bangers {
-    height: fit-content;
-    width: fit-content;
-    font-family: 'Bangers';
-    letter-spacing: 2px;
-    display: inline-block;
-}
-
-#el-messiri {
-    height: fit-content;
-    width: fit-content;
-    font-family: 'el messiri';
-    display: inline-block;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 #button {
@@ -117,5 +118,33 @@ h3 {
     border-radius: 10px;
     font-family: 'el messiri';
     color:black;
-    margin: 10px auto;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
+
+@media screen and (max-width: 600px) {
+    .aClassforSmallScreens {
+    color: aqua;
+    }
+}
+
+.container {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+  }
+   
+  .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .image-container {
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
